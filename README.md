@@ -1,24 +1,13 @@
-# README
+# Hotwire Tutorials
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following this [excellent tutorial](https://www.bearer.com/blog/how-to-build-modals-with-hotwire-turbo-frames-stimulusjs)!
 
-Things you may want to cover:
+## Local Development
 
-- Ruby version
+To start the rails server + tailwind: `./bin/dev`
 
-- System dependencies
+To run specs: `bundle exec rspec`
 
-- Configuration
+### Working with Stimulus controllers
 
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+To create a new controllere: `bin/rails generate stimulus controller-name`
